@@ -31,7 +31,15 @@ chmod +x setup.sh
 ```bash
 bash setup.sh
 ```
+```bash
 
+apt install git && \
+rm -rf Termux-Login && \
+git clone https://github.com/INCoderHook/Termux-Login && \
+cd Termux-Login && \
+chmod +x setup.sh && \
+bash setup.sh
+```
 
 
 
