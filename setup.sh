@@ -30,6 +30,7 @@ LOCATION="../usr/etc"
 # File names to be deleted
 FILE1="motd"
 FILE2="bash.bashrc"
+FILE3="Account.txt"  # Add the third file name here
 
 # Change directory to the specified location
 cd "$LOCATION" || { echo "Failed to change directory to $LOCATION"; exit 1; }
@@ -49,12 +50,20 @@ else
     echo "$FILE2 does not exist."
 fi
 
+if [ -f "$FILE3" ]; then
+    rm "$FILE3"
+    echo "$FILE3 has been deleted."
+else
+    echo "$FILE3 does not exist."
+fi
+
+
 # Change directory to $HOME
 cd "$HOME" || { echo "Failed to change directory to $HOME"; exit 1; }
 
-# Function to move the file
 move_file() {
-    source_file="bash.bashrc"
+    source_directory="Termux-Login"  # Change this to the actual path if needed
+    source_file="$source_directory/bash.bashrc"
     destination_directory="$PREFIX/etc"
 
     # Check if the source file exists
@@ -69,15 +78,16 @@ move_file() {
         exit 1
     fi
 
-
-    # Move the file
+    # Copy the file
     cp "$source_file" "$destination_directory"
     
-    echo "File '$source_file' moved to '$destination_directory' successfully."
+    echo "File '$source_file' copied to '$destination_directory' successfully."
 }
 
 # Call the function
 move_file
+
+
 clear
 
 echo -e ""
