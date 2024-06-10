@@ -21,18 +21,22 @@ This script is for security or lock in termux
 
 # Commands
 
+
 ```bash
-``apt update``
-
 ``apt install git ``
-
+```
+```bash
 ``git clone`` https://github.com/INCoderHook/Termux-Login
-
+```
+```bash
 ``cd Termux-Login``
-
+```
+```bash
 ``chmod +x setup.sh``
-
+```
+```bash
 ``bash setup.sh``
+```
 
 
 
@@ -43,11 +47,7 @@ This script is for security or lock in termux
 **If you entered password incorrect or username i can't help you**
 
 # Contributers
-INCoderHook (only)
+INCoderHook 👻
 
-
-
-
-[![Copy Code](https://img.shields.io/badge/Copy%20Code-blue?style=flat-square&logo=github)](#)
 
 
