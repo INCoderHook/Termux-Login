@@ -20,7 +20,8 @@ This script is for security or lock in termux
 
 # Commands
 
-``"apt update"``
+"Copy"
+``apt update``
 
 ``apt install git ``
 
