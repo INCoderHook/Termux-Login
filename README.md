@@ -18,9 +18,10 @@ This script is for security or lock in termux
 
 
 
+
 # Commands
 
-
+```bash
 ``apt update``
 
 ``apt install git ``
@@ -47,18 +48,6 @@ INCoderHook (only)
 
 
 
-# My Project
-
-## Introduction
-
-This project demonstrates how to use a simple script. Follow the instructions below to copy and use the code.
-
-## Example Usage
-
-To use this script, copy the following code and paste it into your terminal:
-
 [![Copy Code](https://img.shields.io/badge/Copy%20Code-blue?style=flat-square&logo=github)](#)
 
-```bash
-echo "Hello, World!"
 
