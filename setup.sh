@@ -4,10 +4,9 @@
 clear
 echo
 pkg install pv -y >/dev/null 2>&1
-echo -e "\033[31m\033[1m             Installing Packages and All Dependencies" | pv -qL 10
+echo -e "\033[31m\033[1m        Installing Packages and All Dependencies" | pv -qL 10
 apt update
 apt upgrade -y
-apt install git -y
 pkg install python -y
 pkg install cmatrix -y
 pkg install pv -y
@@ -20,7 +19,6 @@ pip install requests
 pkg install python2 -y
 pkg install termux-api -y
 echo -e "\033[31m\033[1m              INSTALLED SUCCESSFULLY \033[32m[\033[36m✓\033[32m]" | pv -qL 12
-termux-setup-storage
 cd $HOME
 clear
 
