@@ -40,11 +40,9 @@ bash setup.sh
 
 **If you entered password incorrect or username i can't help you**
 
-# Scripted by
-Script Created By INCoderHook TG: t.me/EpicModder
 
 # Owner
-INCoderHook 👻
+INCoderHook 👻 TG: https://Telegram.me/EpicModder
 
 
 
