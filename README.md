@@ -23,19 +23,19 @@ This script is for security or lock in termux
 
 
 ```bash
-``apt install git ``
+apt install git
 ```
 ```bash
-``git clone`` https://github.com/INCoderHook/Termux-Login
+git clone https://github.com/INCoderHook/Termux-Login
 ```
 ```bash
-``cd Termux-Login``
+cd Termux-Login
 ```
 ```bash
-``chmod +x setup.sh``
+chmod +x setup.sh
 ```
 ```bash
-``bash setup.sh``
+bash setup.sh
 ```
 
 
