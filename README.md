@@ -33,6 +33,7 @@ chmod +x setup.sh
 ```bash
 bash setup.sh
 ```
+# RUN ALL IN ONE
 ```bash
 termux-setup-storage && \
 apt install git && \
