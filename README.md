@@ -42,7 +42,7 @@ bash setup.sh
 
 
 # Owner
-INCoderHook 👻 TG: https://Telegram.me/EpicModder
+EpicModder 👻 TG: https://Telegram.me/EpicModder
 
 
 
