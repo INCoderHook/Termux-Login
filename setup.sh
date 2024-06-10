@@ -4,9 +4,10 @@
 clear
 echo
 pkg install pv -y >/dev/null 2>&1
-echo -e "\033[31m\033[1m         Installing Packages and All Dependencies" | pv -qL 10
+echo -e "\033[31m\033[1m             Installing Packages and All Dependencies" | pv -qL 10
 apt update
 apt upgrade -y
+apt install git -y
 pkg install python -y
 pkg install cmatrix -y
 pkg install pv -y
