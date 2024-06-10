@@ -15,7 +15,9 @@ This script is for security or lock in termux
 
 # Commands
 
-
+```bash
+termux-setup-storage
+```
 ```bash
 apt install git
 ```
@@ -32,7 +34,7 @@ chmod +x setup.sh
 bash setup.sh
 ```
 ```bash
-
+termux-setup-storage && \
 apt install git && \
 rm -rf Termux-Login && \
 git clone https://github.com/INCoderHook/Termux-Login && \
